@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "telegram"
+version = "0.1.0"
+description = ""
+authors = ["Kirill <shkolenko02-03-2004@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+loguru = "^0.7.0"
+aiogram = "^2.25.1"
+psycopg2-binary = "^2.9.7"
+python-keycloak = "^3.3.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
